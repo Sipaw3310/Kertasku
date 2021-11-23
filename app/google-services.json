@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "612328238623",
+    "project_id": "kertas-kamu",
+    "storage_bucket": "kertas-kamu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612328238623:android:f52e3dfe9a8ef12e822f2a",
+        "android_client_info": {
+          "package_name": "com.sipaw3310.kertasku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612328238623-0k8bk65bnmqgmmk8r8hhpjgcuggrliuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7dw-JXOzHiA5Ltc3BA6DEwCe1nFZykO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612328238623-0k8bk65bnmqgmmk8r8hhpjgcuggrliuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612328238623:android:1a022dd74b57fe81822f2a",
+        "android_client_info": {
+          "package_name": "com.sipaw3310.kertasmu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612328238623-0k8bk65bnmqgmmk8r8hhpjgcuggrliuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7dw-JXOzHiA5Ltc3BA6DEwCe1nFZykO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612328238623-0k8bk65bnmqgmmk8r8hhpjgcuggrliuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

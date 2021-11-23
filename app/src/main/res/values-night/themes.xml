@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kertasku" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor_night</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor_night</item>
+        <item name="colorOnPrimary">@color/primaryTextColor_night</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor_night</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor_night</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor_night</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/backgroundColor</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <!-- Customize your theme here. -->
+        <item name="strokeColor">#555555</item>
+    </style>
+
+    <style name="Theme.Kertasku.HeaderColor">
+        <item name="android:color">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Kertasku.OutlinedTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+
+    <style name="Theme.Kertasku.TopBar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    <style name="Theme.Kertasku.BookTabBar">
+        <item name="android:background">@color/primaryDarkColor_night</item>
+    </style>
+</resources>

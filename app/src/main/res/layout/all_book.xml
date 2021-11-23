@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/allBook_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/allBook_title"
+        style="@style/Theme.Kertasku.BookTab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="0dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="0dp"
+        android:text="Button" />
+
+    <View
+        android:id="@+id/allBook_bookColor"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_book_tab_color" />
+
+</FrameLayout>

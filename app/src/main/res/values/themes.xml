@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kertasku" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">#FFFFCA</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <!-- System bar -->
+        <item name="android:statusBarColor">#45000000</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+        <item name="strokeColor">#888888</item>
+        <item name="shapeAppearanceSmallComponent">@style/Theme.Kertasku.SmallComponent</item>
+    </style>
+
+    <style name="Theme.Kertasku.HeaderText" parent="Theme.Kertasku.HeaderColor">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/cairo_regular</item>
+    </style>
+    <style name="Theme.Kertasku.HeaderColor">
+        <item name="android:color">#000000</item>
+    </style>
+    <style name="Theme.Kertasku.HeaderText.ActivityTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.Kertasku.TopBar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">#AAAAAA</item>
+    </style>
+
+    <style name="Theme.Kertasku.BookTab">
+        <item name="android:background">@drawable/bg_book_tab</item>
+    </style>
+    <style name="Theme.Kertasku.BookTabSelected">
+        <item name="android:background">@drawable/bg_book_tab_selected</item>
+    </style>
+
+    <style name="Theme.Kertasku.BookTabBar">
+        <item name="android:background">#FFFFCA</item>
+    </style>
+    <style name="Theme.Kertasku.NoteListTitle" parent="Theme.Kertasku.HeaderColor">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="Theme.Kertasku.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="Theme.Kertasku.OutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">#5C5C5C</item>
+        <item name="rippleColor">#B5B5B5</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="iconTint">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Theme.Kertasku.OutlinedTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#D5B654</item>
+        <item name="hintTextColor">#D5B654</item>
+    </style>
+</resources>

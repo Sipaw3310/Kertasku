@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_title">Kertasmu</string>
+    <string name="search">Cari</string>
+    <string name="no_book">Kamu belum memiliki buku apa-apa</string>
+    <string name="create_new_book">Buat buku</string>
+    <string name="sign_in_title">Login</string>
+    <string name="sign_in_text">Apakah kamu sudah memiliki akun Kertasku? Apabila sudah, maka silahkan untuk memasukkan email dan kata sandi akun anda</string>
+    <string name="sign_in_greeting">Hai!</string>
+    <string name="email">Email</string>
+    <string name="password">Kata sandi</string>
+    <string name="create_new_account">Saya belum memilki akun Kertasku</string>
+    <string name="sign_in_button">Masuk</string>
+    <string name="email_empty_error">Kolom email harus diisi</string>
+    <string name="password_empty_error">Kolom password harus diisi</string>
+    <string name="sign_in_failed">Gagal untuk masuk</string>
+    <string name="sign_in_invalid_credential">Email atau password mungkin salah</string>
+    <string name="sign_in_invalid_user">Email mungkin salah</string>
+    <string name="sign_up_title">Buat akun baru</string>
+    <string name="sign_up_text">Jangan khawatir apabila Anda belum memiliki akun Kertasku karena kami akan membuatkannya untuk Anda. Silahkan untuk memasukkan alamat email dan kata sandi yang Anda inginkan untuk akun baru anda</string>
+    <string name="sign_network_error">Sepertinya Kami mengalami masalah saat menghubungi server Kertasku. Silahkan periksa koneksi internet Anda</string>
+    <string name="sign_up_button">Daftar</string>
+    <string name="sign_up_success_toast">Anda berhasil didaftarkan</string>
+    <string name="password_weak_error">Kata sandi minimal harus terdiri dari 6 huruf</string>
+    <string name="sign_up_invalid_credential">Terdapat kesalahan dalam penulisan alamat emailnya</string>
+    <string name="sign_up_collision_error">Sudah ada akun dengan alamat email tersebut. Silahkan untuk menggunakan alamat email anda yang lain</string>
+    <string name="settings">Pengaturan</string>
+    <string name="notebook">Buku catatan</string>
+</resources>
